@@ -1,0 +1,5 @@
+variant,worst_f_Hz,P_ripple_MW,P_ripple_Hz,Q_ripple_Mvar,Q_ripple_Hz,V_ripple_pu,V_ripple_Hz
+F0 final settings (2.5 ms),49.5522,0.16,0.20,0.02,0.20,0.00083,0.20
+F1 final settings, 1 ms check,49.5524,0.16,0.20,0.02,0.20,0.00083,0.20
+F2 final settings, 5 ms,49.5412,41.79,12.19,0.02,0.20,0.00265,12.19
+F3 final but solar/wind Q loop 18/5,49.5479,12.59,6.19,0.03,0.20,0.05776,6.19
