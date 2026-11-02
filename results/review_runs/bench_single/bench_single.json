@@ -1,0 +1,86 @@
+[
+ {
+  "bus": 1,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": -1.1417449415795483e+23
+ },
+ {
+  "bus": 2,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": -163725951288.79742
+ },
+ {
+  "bus": 3,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.58971615088247
+ },
+ {
+  "bus": 4,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.59198893352398
+ },
+ {
+  "bus": 5,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.59906367624352
+ },
+ {
+  "bus": 6,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.583369959145784
+ },
+ {
+  "bus": 7,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.43223996087909
+ },
+ {
+  "bus": 8,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.4541569147259
+ },
+ {
+  "bus": 9,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.56559607030686
+ },
+ {
+  "bus": 10,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": -2.2619106319348486e+19
+ },
+ {
+  "bus": 11,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.551342716599954
+ },
+ {
+  "bus": 12,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 47.4339746184993
+ },
+ {
+  "bus": 13,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.561425397290336
+ },
+ {
+  "bus": 14,
+  "feasible": false,
+  "P_min": null,
+  "fmin_at_300MW": 49.08863343298435
+ }
+]

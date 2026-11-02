@@ -1,0 +1,602 @@
+[
+ {
+  "Vdip": 0.9,
+  "Vup": 1.1,
+  "voltage": [
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 1,
+    "v_min": 0.1714971363544464,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 2,
+    "v_min": 0.2243976593017578,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 1,
+    "v_min": 0.5290970802307129,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 2,
+    "v_min": 0.4314471483230591,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 1,
+    "v_min": 0.24365082383155823,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 2,
+    "v_min": 0.3261524438858032,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.19256040453910828,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.384062260389328,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   }
+  ],
+  "fmin": 49.49946431443095,
+  "rocof": 1.1666997503929366,
+  "swing": 0.003633931928192169,
+  "ripple_pct": 0.25157977822715555,
+  "soc_lo": 0.24767115486091348,
+  "soc_hi": 0.6414997052533188,
+  "E_MWh": [
+   28.315,
+   6.7925
+  ],
+  "stable": true,
+  "feasible": false,
+  "per_contingency": [
+   {
+    "name": "Fault at bus 2, coal unit 2 trips",
+    "nadir": 49.49996015143884,
+    "fbus": 49.522304348647594,
+    "rocof": 1.1666997503929366,
+    "peak": 49.77641965050143,
+    "f10": 49.77641965050143
+   },
+   {
+    "name": "Fault at bus 12, solar park trips",
+    "nadir": 49.50469142809025,
+    "fbus": 49.49946431443095,
+    "rocof": 0.8469064686342733,
+    "peak": 49.76940754059566,
+    "f10": 49.76940754059566
+   },
+   {
+    "name": "Fault at bus 1, coal unit 1 trips",
+    "nadir": 49.54544209387792,
+    "fbus": 49.58814401179552,
+    "rocof": 0.774161382448753,
+    "peak": 49.78069023725376,
+    "f10": 49.78069023725376
+   },
+   {
+    "name": "Busbar outage at bus 5 (BESS bus)",
+    "nadir": 50.08262259819339,
+    "fbus": 50.07695739623159,
+    "rocof": 0.11157041621021335,
+    "peak": 50.16968841471463,
+    "f10": 50.11113357237572
+   },
+   {
+    "name": "Busbar outage at bus 9 (BESS bus)",
+    "nadir": 50.013367471365164,
+    "fbus": 50.071252684574574,
+    "rocof": 0.32794874987430944,
+    "peak": 50.17776042026935,
+    "f10": 50.13684672438692
+   }
+  ]
+ },
+ {
+  "Vdip": 0.8,
+  "Vup": 1.2,
+  "voltage": [
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 1,
+    "v_min": 0.1714971363544464,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 2,
+    "v_min": 0.2243976593017578,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 1,
+    "v_min": 0.5290970802307129,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 2,
+    "v_min": 0.4314471483230591,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 1,
+    "v_min": 0.24365082383155823,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 2,
+    "v_min": 0.3261524438858032,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.19256040453910828,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.384062260389328,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   }
+  ],
+  "fmin": 49.49946431443095,
+  "rocof": 1.141413825020848,
+  "swing": 0.003633931928192169,
+  "ripple_pct": 0.25157977822715555,
+  "soc_lo": 0.24767115486091348,
+  "soc_hi": 0.6415263136158047,
+  "E_MWh": [
+   28.315,
+   6.7925
+  ],
+  "stable": true,
+  "feasible": false,
+  "per_contingency": [
+   {
+    "name": "Fault at bus 2, coal unit 2 trips",
+    "nadir": 49.51296355100649,
+    "fbus": 49.53270968981087,
+    "rocof": 1.141413825020848,
+    "peak": 49.7763267367446,
+    "f10": 49.7763267367446
+   },
+   {
+    "name": "Fault at bus 12, solar park trips",
+    "nadir": 49.50469142809025,
+    "fbus": 49.49946431443095,
+    "rocof": 0.8469064686342733,
+    "peak": 49.76940754059566,
+    "f10": 49.76940754059566
+   },
+   {
+    "name": "Fault at bus 1, coal unit 1 trips",
+    "nadir": 49.553175169949036,
+    "fbus": 49.59628195501864,
+    "rocof": 0.7570035604139633,
+    "peak": 49.78065712657935,
+    "f10": 49.78065712657935
+   },
+   {
+    "name": "Busbar outage at bus 5 (BESS bus)",
+    "nadir": 50.08262259819339,
+    "fbus": 50.07695739623159,
+    "rocof": 0.11157041621021335,
+    "peak": 50.16968841471463,
+    "f10": 50.11113357237572
+   },
+   {
+    "name": "Busbar outage at bus 9 (BESS bus)",
+    "nadir": 50.00789404325886,
+    "fbus": 50.064217956969514,
+    "rocof": 0.33586660879296915,
+    "peak": 50.17692312159087,
+    "f10": 50.13688121491729
+   }
+  ]
+ },
+ {
+  "Vdip": 0.7,
+  "Vup": 1.2,
+  "voltage": [
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 1,
+    "v_min": 0.1714971363544464,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 2,
+    "v_min": 0.2243976593017578,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 1,
+    "v_min": 0.5290970802307129,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 2,
+    "v_min": 0.4314471483230591,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 1,
+    "v_min": 0.24365082383155823,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 2,
+    "v_min": 0.3261524438858032,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.19256040453910828,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.384062260389328,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   }
+  ],
+  "fmin": 49.49946431443095,
+  "rocof": 1.141413825020848,
+  "swing": 0.003633931928192169,
+  "ripple_pct": 0.25157977822715555,
+  "soc_lo": 0.24767115486091348,
+  "soc_hi": 0.6415263136158047,
+  "E_MWh": [
+   28.315,
+   6.7925
+  ],
+  "stable": true,
+  "feasible": false,
+  "per_contingency": [
+   {
+    "name": "Fault at bus 2, coal unit 2 trips",
+    "nadir": 49.51296355100649,
+    "fbus": 49.53270968981087,
+    "rocof": 1.141413825020848,
+    "peak": 49.7763267367446,
+    "f10": 49.7763267367446
+   },
+   {
+    "name": "Fault at bus 12, solar park trips",
+    "nadir": 49.50469142809025,
+    "fbus": 49.49946431443095,
+    "rocof": 0.8469064686342733,
+    "peak": 49.76940754059566,
+    "f10": 49.76940754059566
+   },
+   {
+    "name": "Fault at bus 1, coal unit 1 trips",
+    "nadir": 49.553175169949036,
+    "fbus": 49.59628195501864,
+    "rocof": 0.7570035604139633,
+    "peak": 49.78065712657935,
+    "f10": 49.78065712657935
+   },
+   {
+    "name": "Busbar outage at bus 5 (BESS bus)",
+    "nadir": 50.08262259819339,
+    "fbus": 50.07695739623159,
+    "rocof": 0.11157041621021335,
+    "peak": 50.16968841471463,
+    "f10": 50.11113357237572
+   },
+   {
+    "name": "Busbar outage at bus 9 (BESS bus)",
+    "nadir": 50.00789404325886,
+    "fbus": 50.064217956969514,
+    "rocof": 0.33586660879296915,
+    "peak": 50.17692312159087,
+    "f10": 50.13688121491729
+   }
+  ]
+ },
+ {
+  "Vdip": 0.6,
+  "Vup": 1.25,
+  "voltage": [
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 1,
+    "v_min": 0.1714971363544464,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 2,
+    "v_min": 0.2243976593017578,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 1,
+    "v_min": 0.5290970802307129,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 2,
+    "v_min": 0.4314471483230591,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 1,
+    "v_min": 0.24365082383155823,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 2,
+    "v_min": 0.3261524438858032,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.19256040453910828,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.384062260389328,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   }
+  ],
+  "fmin": 49.49919190257788,
+  "rocof": 1.141413825020848,
+  "swing": 0.003633931928192169,
+  "ripple_pct": 0.25157977822715555,
+  "soc_lo": 0.24767644256178054,
+  "soc_hi": 0.6415263136158047,
+  "E_MWh": [
+   28.315,
+   6.7925
+  ],
+  "stable": true,
+  "feasible": false,
+  "per_contingency": [
+   {
+    "name": "Fault at bus 2, coal unit 2 trips",
+    "nadir": 49.51296355100649,
+    "fbus": 49.53270968981087,
+    "rocof": 1.141413825020848,
+    "peak": 49.7763267367446,
+    "f10": 49.7763267367446
+   },
+   {
+    "name": "Fault at bus 12, solar park trips",
+    "nadir": 49.504388022402956,
+    "fbus": 49.49919190257788,
+    "rocof": 0.8474591050934634,
+    "peak": 49.76941122261453,
+    "f10": 49.76941122261453
+   },
+   {
+    "name": "Fault at bus 1, coal unit 1 trips",
+    "nadir": 49.553175169949036,
+    "fbus": 49.59628195501864,
+    "rocof": 0.7570035604139633,
+    "peak": 49.78065712657935,
+    "f10": 49.78065712657935
+   },
+   {
+    "name": "Busbar outage at bus 5 (BESS bus)",
+    "nadir": 50.08262259819339,
+    "fbus": 50.07695739623159,
+    "rocof": 0.11157041621021335,
+    "peak": 50.16968841471463,
+    "f10": 50.11113357237572
+   },
+   {
+    "name": "Busbar outage at bus 9 (BESS bus)",
+    "nadir": 50.00789404325886,
+    "fbus": 50.064217956969514,
+    "rocof": 0.33586660879296915,
+    "peak": 50.17692312159087,
+    "f10": 50.13688121491729
+   }
+  ]
+ },
+ {
+  "Vdip": 0.5,
+  "Vup": 1.3,
+  "voltage": [
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 1,
+    "v_min": 0.1714971363544464,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 2, coal unit 2 trips",
+    "unit": 2,
+    "v_min": 0.2243976593017578,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 1,
+    "v_min": 0.5290970802307129,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 12, solar park trips",
+    "unit": 2,
+    "v_min": 0.4314471483230591,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 1,
+    "v_min": 0.24365082383155823,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Fault at bus 1, coal unit 1 trips",
+    "unit": 2,
+    "v_min": 0.3261524438858032,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   },
+   {
+    "contingency": "Busbar outage at bus 5 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.19256040453910828,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 1,
+    "v_min": 0.384062260389328,
+    "t_recover_0p9": 0.0
+   },
+   {
+    "contingency": "Busbar outage at bus 9 (BESS bus)",
+    "unit": 2,
+    "v_min": 0.0,
+    "t_recover_0p9": null
+   }
+  ],
+  "fmin": 49.49999172240496,
+  "rocof": 1.141413825020848,
+  "swing": 0.003633931928192169,
+  "ripple_pct": 0.25157977822715555,
+  "soc_lo": 0.2476641646207155,
+  "soc_hi": 0.6415263136158047,
+  "E_MWh": [
+   28.315,
+   6.7925
+  ],
+  "stable": true,
+  "feasible": false,
+  "per_contingency": [
+   {
+    "name": "Fault at bus 2, coal unit 2 trips",
+    "nadir": 49.51296355100649,
+    "fbus": 49.53270968981087,
+    "rocof": 1.141413825020848,
+    "peak": 49.7763267367446,
+    "f10": 49.7763267367446
+   },
+   {
+    "name": "Fault at bus 12, solar park trips",
+    "nadir": 49.50505582655731,
+    "fbus": 49.49999172240496,
+    "rocof": 0.8467991080424895,
+    "peak": 49.769396985101146,
+    "f10": 49.769396985101146
+   },
+   {
+    "name": "Fault at bus 1, coal unit 1 trips",
+    "nadir": 49.553175169949036,
+    "fbus": 49.59628195501864,
+    "rocof": 0.7570035604139633,
+    "peak": 49.78065712657935,
+    "f10": 49.78065712657935
+   },
+   {
+    "name": "Busbar outage at bus 5 (BESS bus)",
+    "nadir": 50.08262259819339,
+    "fbus": 50.07695739623159,
+    "rocof": 0.11157041621021335,
+    "peak": 50.16968841471463,
+    "f10": 50.11113357237572
+   },
+   {
+    "name": "Busbar outage at bus 9 (BESS bus)",
+    "nadir": 50.00789404325886,
+    "fbus": 50.064217956969514,
+    "rocof": 0.33586660879296915,
+    "peak": 50.17692312159087,
+    "f10": 50.13688121491729
+   }
+  ]
+ }
+]

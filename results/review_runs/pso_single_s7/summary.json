@@ -1,0 +1,127 @@
+{
+  "mode": "pso",
+  "n_bess": 1,
+  "seed": 7,
+  "bess_controller": "REECC1",
+  "soc_settings": {
+    "SOC_INI": 0.5,
+    "SOC_MIN": 0.1,
+    "SOC_MAX": 0.9,
+    "ETA_DIS": 1.0,
+    "ETA_CH": 1.0,
+    "E_FIXED_H": null,
+    "T_SECONDARY_s": 300.0
+  },
+  "bess": [
+    {
+      "bus": 5,
+      "P_MW": 140.36534922443195,
+      "E_MWh": 35.09133730610799,
+      "need_discharge_MWh": 8.866621208066384,
+      "need_charge_MWh": 0.00014375188997942445
+    }
+  ],
+  "droop_R_Hz": 0.15,
+  "cost_Musd": 193.00235518359392,
+  "worst": {
+    "f_min": 49.500004621222615,
+    "rocof": 1.1380098967144363,
+    "bess_ripple_frac": 0.0011718842405676832,
+    "soc_min": 0.24732938515918368,
+    "soc_max": 0.5,
+    "stable": true,
+    "feasible": true
+  },
+  "contingencies": [
+    {
+      "name": "Fault at bus 2, coal unit 2 trips",
+      "nadir_noBESS": 45.10894293683059,
+      "rocof_noBESS": 2.472088690113168,
+      "nadir_BESS": 49.51640314579254,
+      "rocof_BESS": 1.1380098967144363,
+      "peak_BESS": 49.77618473982491,
+      "event": "under-frequency",
+      "lost_buses": [],
+      "soc_end": [
+        0.4919838662030207
+      ],
+      "soc_at_agc": [
+        0.255396712656001
+      ]
+    },
+    {
+      "name": "Fault at bus 12, solar park trips",
+      "nadir_noBESS": 46.85762238845808,
+      "rocof_noBESS": 1.8168417062797317,
+      "nadir_BESS": 49.50519297740266,
+      "rocof_BESS": 0.8482414136154972,
+      "peak_BESS": 49.76911522823616,
+      "event": "under-frequency",
+      "lost_buses": [],
+      "soc_end": [
+        0.4916130837015222
+      ],
+      "soc_at_agc": [
+        0.24732938515918368
+      ]
+    },
+    {
+      "name": "Fault at bus 1, coal unit 1 trips",
+      "nadir_noBESS": 45.23018795263854,
+      "rocof_noBESS": 2.243450167156709,
+      "nadir_BESS": 49.55401532543764,
+      "rocof_BESS": 0.756352763943795,
+      "peak_BESS": 49.780579354232735,
+      "event": "under-frequency",
+      "lost_buses": [],
+      "soc_end": [
+        0.49210449252562566
+      ],
+      "soc_at_agc": [
+        0.2597647228846235
+      ]
+    },
+    {
+      "name": "Busbar outage at bus 5 (BESS bus)",
+      "nadir_noBESS": 50.117466846892185,
+      "rocof_noBESS": 0.24292331358283548,
+      "nadir_BESS": 50.117492861297634,
+      "rocof_BESS": 0.24291046102914038,
+      "peak_BESS": 50.274083900459324,
+      "event": "over-frequency",
+      "lost_buses": [
+        5,
+        15
+      ],
+      "soc_end": [
+        0.5
+      ],
+      "soc_at_agc": [
+        0.5
+      ]
+    }
+  ],
+  "pso_history": [
+    5.470936349314166,
+    2.8355076422301257,
+    0.8039896899320764,
+    0.7107418861491384,
+    0.7107418861491384,
+    0.6615684580787925,
+    0.6399145191352896,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49844377532418044,
+    0.49667085991959564,
+    0.4926248485446402,
+    0.4926248485446402
+  ],
+  "runtime_s": 354.48085927963257
+}
