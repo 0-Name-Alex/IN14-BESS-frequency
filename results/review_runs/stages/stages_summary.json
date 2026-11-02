@@ -1,0 +1,26 @@
+[
+ {
+  "stage": "stage1_R1R2",
+  "bus": 1,
+  "P_MW": 138.10361308746826,
+  "E_MWh": 34.525903271867065,
+  "R": 0.15,
+  "worst_f": 49.500265112146735,
+  "rocof": 1.1644823546638463,
+  "feasible": true,
+  "worst_f_with_own_busbar": -25295720903.123493,
+  "robust": false
+ },
+ {
+  "stage": "stage2_R1R3_bus2",
+  "bus": 5,
+  "P_MW": 140.49732384805006,
+  "E_MWh": 35.124330962012515,
+  "R": 0.15,
+  "worst_f": 49.500742694363,
+  "rocof": 1.1367603123783567,
+  "feasible": true,
+  "worst_f_with_own_busbar": 49.500742694363,
+  "robust": true
+ }
+]
